@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="form-container">
+      <h2 class="heading">Sign Up</h2>
+      <p class="h-para">It's free and only takes a minute</p>
+      <form>
+        <div class="input-container">
+          <label for="firstName">First Name</label>
+          <input type="text" id="firstName" />
+        </div>
+
+        <div class="input-container">
+          <label for="lastName">Last Name</label>
+          <input type="text" id="lastName" />
+          <span class="input-icon">
+            <i class="fas fa-user"></i>
+          </span>
+        </div>
+
+        <div class="input-container">
+          <label for="email">Email</label>
+          <input type="email" id="email" />
+        </div>
+
+        <div class="input-container">
+          <label for="password">Password</label>
+          <input type="password" id="password" />
+          <span class="input-icon">
+            <i class="fa-solid fa-arrow-rotate-right"></i>
+          </span>
+        </div>
+
+        <div class="input-container">
+          <label for="confirmPassword">Confirm Password</label>
+          <input type="password" id="confirmPassword" />
+          <span class="input-icon">
+            <i class="fa-solid fa-arrow-rotate-right"></i>
+          </span>
+        </div>
+
+        <button type="submit" class="submit-button">SIGN UP</button>
+        <p class="terms-para">
+          By clicking the Sign Up button, you agree to <br />
+          our <span class="span">Terms & Conditions</span> and
+          <span class="span">Privacy Policy</span>
+        </p>
+      </form>
+    </div>
+    <p class="acc-para">
+      Already have an account? <span class="span">Login Here</span>
+    </p>
+  </body>
+</html>
